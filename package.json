@@ -1,0 +1,32 @@
+{
+  "name": "nextjs-bilingual-blog-forum-with-backend",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "node src/index.js",
+    "prisma": "prisma"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.8.2",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-quill": "^2.0.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
+    "prisma": "^6.8.2",
+    "sqlite3": "^5.1.7",
+    "tailwindcss": "^4.1.7"
+  },
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
